@@ -20,11 +20,13 @@ const equals = e => {
 
 }
 
-const reset = e => {}
+const reset = () => {}
 
-const percent = e => {}
+const percent = () => {}
 
-const minusPlus = e => {}
+const minusPlus = () => {}
+
+
 
 
 function App() {
