@@ -1,11 +1,16 @@
 // import logo from './logo.svg';
-import './App.css';
+import './style.css';
 import { useState, useEffect } from 'react';
 
 const [preState, setpreState ] = useState('');
 const [currentState, setcurrentState ] = useState('');
 const [input, setInput] = useState('0');
 const [operator, setOperator] = useState(null);
+const [total, setTotal] = useState(false);
+
+const inputNum = e => {
+  
+}
 
 function App() {
   return (
