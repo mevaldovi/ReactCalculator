@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import { useState, useEffect } from 'react';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
         <div className="btn " onClick={inputNum}>1</div>
         <div className="btn " onClick={inputNum}>2</div>
         <div className="btn " onClick={inputNum}>3</div>
+        <div className="btn orange" onClick={operatorType}>-</div>
+        <div className="btn " onClick={inputNum}>0</div>
+        <div className="btn " onClick={inputNum}>.</div>
+        <div className="btn " onClick={equals}>=</div>
       </div>
     </div>
   );
