@@ -9,7 +9,16 @@ function App() {
   const [operator, setOperator] = useState(null);
   const [total, setTotal] = useState(false);
 
-  const inputNum = (e) => {};
+  const inputNum = (e) => {
+    if (currentState.inlcudes(".") && e.target.innerText === ".") 
+    return;
+
+    if (total){
+      setprestate("")
+    }
+
+    currentState ? setcurrentState(pre => + e.target.innerText) 
+  };
 
   const operatorType = (e) => {};
 
@@ -23,7 +32,7 @@ function App() {
   return (
     <div className="container">
       <div className="wrapper">
-        <div className="screen"></div>
+        <div className="screen">{input}</div>
         <div className="btn light-gray" onClick={reset}>
           AC
         </div>
@@ -72,7 +81,7 @@ function App() {
         <div className="btn orange" onClick={operatorType}>
           -
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className=" btn zero" onClick={inputNum}>
           0
         </div>
         <div className="btn " onClick={inputNum}>

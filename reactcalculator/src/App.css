@@ -39,6 +39,11 @@ body {
 
 .screen{
     grid-column: 1 / -1;
+    color: white;
+    text-align: right;
+    padding: 0.5rem;
+    font-size: 4rem;
+    overflow: hidden;
 
 
 }
@@ -67,4 +72,17 @@ body {
 
 .orange{
     background-color: orange;
+}
+
+.orange:hover{
+    background-color: white;
+    color: orange;
+}
+
+.zero{
+    grid-column: 1 / span 2;
+    border-radius: 25px;
+    place-content: unset;
+    align-items: center;
+    padding-left: 2rem;
 }
