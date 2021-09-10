@@ -18,6 +18,9 @@ function App() {
         <div className="btn " onClick={inputNum}>5</div>
         <div className="btn " onClick={inputNum}>6</div>
         <div className="btn orange" onClick={operatorType}>+</div>
+        <div className="btn " onClick={inputNum}>1</div>
+        <div className="btn " onClick={inputNum}>2</div>
+        <div className="btn " onClick={inputNum}>3</div>
       </div>
     </div>
   );
