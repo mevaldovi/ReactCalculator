@@ -3,6 +3,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 
 function App() {
+  //set hooks for ReactApp
   const [preState, setpreState] = useState("");
   const [currentState, setcurrentState] = useState("");
   const [input, setInput] = useState("0");
@@ -10,14 +11,18 @@ function App() {
   const [total, setTotal] = useState(false);
 
   const inputNum = (e) => {
-    if (currentState.inlcudes(".") && e.target.innerText === ".") 
-    return;
-
-    if (total){
-      setprestate("")
+    //if user clicks the "." button more than once, exit the function since a calculator can not display two "." at once
+    if (currentState.inlcudes(".") && e.target.innerText === ".") return;
+    //if a total exists, set prestate as an empty string.
+    if (total) {
+      setprestate("");
     }
-
-    currentState ? setcurrentState(pre => + e.target.innerText) 
+    //ternary operator checking to see if there's a current state. If no current state, set currentstate as preState and cancatenate event target's innerText
+    currentState
+      ? setcurrentState((pre) => +e.target.innerText)
+      : setcurrentState(e.target.innerText);
+      //re-set Total back to false to prepare for additional other calculations.
+    setTotal(false);
   };
 
   const operatorType = (e) => {};
