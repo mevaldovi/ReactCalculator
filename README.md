@@ -1,7 +1,7 @@
 # ReactCalculator
 
 # Description
-[Simple calculator](src/reactcalculator.PNG) entirely coded with React.
+Simple calculator entirely coded with React.
 
 # Technology
 React, Javascript, HTML, CSS.
@@ -30,6 +30,7 @@ React, Javascript, HTML, CSS.
 
 
 # Usage
+[Screenshot](path to photo goes here)
 [Github i_o](https://mevaldovi.github.io/ReactCalculator). 
 
 [VideoDemo](link to video demo)
