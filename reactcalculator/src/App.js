@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 
 const [preState, setpreState ] = useState('');
 const [currentState, setcurrentState ] = useState('');
+const [input, setInput] = useState('0');
+const [operator, setOperator] = useState(null);
 
 function App() {
   return (
