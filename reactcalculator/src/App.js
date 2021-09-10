@@ -12,24 +12,37 @@ function App() {
 
   const inputNum = (e) => {
     //if user clicks the "." button more than once, exit the function since a calculator can not display two "." at once
-    if (currentState.inlcudes(".") && e.target.innerText === ".") return;
+    if (currentState.includes(".") && e.target.innerText === ".") return;
     //if a total exists, set prestate as an empty string.
     if (total) {
-      setprestate("");
+      setpreState("");
     }
     //ternary operator checking to see if there's a current state. If no current state, set currentstate as preState and cancatenate event target's innerText
     currentState
-      ? setcurrentState((pre) => +e.target.innerText)
+      ? setcurrentState((pre) => pre + e.target.innerText)
       : setcurrentState(e.target.innerText);
       //re-set Total back to false to prepare for additional other calculations.
     setTotal(false);
   };
 
+  useEffect(() => {
+    setInput(currentState);
+  }, [currentState]);
+
+useEffect(() => {
+  setInput("0");
+}, [])
+
   const operatorType = (e) => {};
 
   const equals = (e) => {};
 
-  const reset = () => {};
+  const reset = () => {
+    //set preState to an empty string
+    setpreState("");
+    setcurrentState("");
+    setInput("0");
+  };
 
   const percent = () => {};
 
