@@ -43,6 +43,10 @@ Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 # Agknowledgments
+
+Calculator inspired by [tommykelly100's](https://www.youtube.com/channel/UCBeE2qKffzEzRoWns6RZ8UA). 
+
+
 For future implementation I plan on using these styled logos provided in the links below:
 
 
