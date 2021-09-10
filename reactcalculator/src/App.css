@@ -6,3 +6,11 @@
     -webkit-user-drag: none;
     -webkit-app-region: none;
 }
+
+body {
+    background-color:aliceblue;
+    display: grid;
+    place-content: center;
+    font-family:'Courier New', Courier, monospace;
+    
+}
