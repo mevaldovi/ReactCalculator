@@ -11,8 +11,12 @@ function App() {
         <div className="btn light-gray" onClick={minusPlus}>+/-</div>
         <div className="btn orange" onClick={operatorType}>/</div>
         <div className="btn " onClick={inputNum}>7</div>
+        <div className="btn " onClick={inputNum}>8</div>
+        <div className="btn " onClick={inputNum}>9</div>
+        <div className="btn orange" onClick={operatorType}>X</div>
         <div className="btn " onClick={inputNum}>7</div>
-        <div className="btn " onClick={inputNum}>7</div>
+        <div className="btn " onClick={inputNum}>8</div>
+        <div className="btn " onClick={inputNum}>9</div>
       </div>
     </div>
   );
