@@ -9,8 +9,23 @@ const [operator, setOperator] = useState(null);
 const [total, setTotal] = useState(false);
 
 const inputNum = e => {
-  
+
 }
+
+const operatorType = e => {
+
+} 
+
+const equals = e => {
+
+}
+
+const reset = e => {}
+
+const percent = e => {}
+
+const minusPlus = e => {}
+
 
 function App() {
   return (
