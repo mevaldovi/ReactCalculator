@@ -50,5 +50,21 @@ body {
     color: white;
     cursor: pointer;
     font-weight: bold;
+}
 
+.btn:hover{
+    background-color: gray;
+}
+
+.light-gray{
+    background-color: gray;
+    color: black;
+}
+
+.light-gray:hover{
+    background-color: white;
+}
+
+.orange{
+    background-color: orange;
 }
