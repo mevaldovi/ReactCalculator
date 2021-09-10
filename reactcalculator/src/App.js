@@ -2,6 +2,9 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 
+const [preState, setpreState ] = useState('');
+const [currentState, setcurrentState ] = useState('');
+
 function App() {
   return (
     <div className="container">
