@@ -45,7 +45,8 @@ Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 # Agknowledgments
 
 Calculator inspired by [tommykelly100's](https://www.youtube.com/channel/UCBeE2qKffzEzRoWns6RZ8UA). 
-CSS main pattern background courtesy of [Jim Raptis](https://twitter.com/d__raptis).
+
+CSS main pattern background courtesy of [Praveen Puglia](https://codepen.io/praveenpuglia/pen/vNWpwO) .
 
 For future implementation I plan on using these styled logos provided in the links below:
 
@@ -60,7 +61,7 @@ For future implementation I plan on using these styled logos provided in the lin
 
 [Generic Data Icon Credit](https://cdn2.iconfinder.com/data/icons/leto-blue-ui-generic-2/64/ui-06-512.png")
 
-Additional credit to the body background designs designs of [ampersandxyz](https://codepen.io/ampersand_xyz/pen/VjrZWv) and [Praveen Puglia](https://codepen.io/praveenpuglia/pen/vNWpwO), and classmate [David Gauthier](https://github.com/Cuillerethedj) whose footer formatting inspired mine.
+
 "Last, but not least, I would like to thank me. I want to thank me for believing in me, I want to thank me for doing all this hard work. I wanna thank me for having no days off. I wanna thank me for never quitting. I wanna thank me for always been a giver and trying to give more than I receive. I want to thank me for trying to do more right than wrong. I want to thank me for just being me at all times.” --Snoop Dog
 
 
