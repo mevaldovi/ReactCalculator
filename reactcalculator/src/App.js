@@ -33,7 +33,16 @@ useEffect(() => {
   setInput("0");
 }, [])
 
-  const operatorType = (e) => {};
+  const operatorType = (e) => {
+    setTotal(false);
+    setOperator(e.target.innerText)
+    if (currentState === "")
+    return;
+    if (preState !== ""){
+      equals();
+    } setpreState(currentState)
+    setcurrentState("")
+  };
 
   const equals = (e) => {};
 
