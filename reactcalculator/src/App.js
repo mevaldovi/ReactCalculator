@@ -44,7 +44,10 @@ useEffect(() => {
     setcurrentState("")
   };
 
-  const equals = (e) => {};
+  const equals = (e) => {
+    if (e?.target.innerText === "=")
+    setTotal(true);
+  };
 
   const reset = () => {
     //set preState to an empty string
