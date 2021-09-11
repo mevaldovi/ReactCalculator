@@ -49,6 +49,22 @@ useEffect(() => {
     setTotal(true);
   };
 
+  let cal;
+  switch (operator){
+    case "/":
+    cal = String(parseFloat(preState) / parseFloat(currentState));
+    break;
+    case "+":
+    cal = String(parseFloat(preState) + parseFloat(currentState));
+    break;
+    case "X":
+    cal = String(parseFloat(preState) * parseFloat(currentState));
+    break;
+    case "-":
+    cal = String(parseFloat(preState) - parseFloat(currentState));
+    break;
+  }
+
   const reset = () => {
     //set preState to an empty string
     setpreState("");
