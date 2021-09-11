@@ -64,6 +64,9 @@ useEffect(() => {
     cal = String(parseFloat(preState) - parseFloat(currentState));
     break;
   }
+  // setInput("");
+  // setpreState(cal);
+  // setcurrentState("");
 
   const reset = () => {
     //set preState to an empty string
