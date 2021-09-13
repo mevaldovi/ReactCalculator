@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
+import NumberFormat from 'react-number-format';
 import { useState, useEffect } from "react";
 
 function App() {
@@ -81,7 +82,7 @@ useEffect(() => {
   return (
     <div className="container">
       <div className="wrapper">
-        <div className="screen">{input}</div>
+        <div className="screen">{input !== "" || input === "0"? <NumberFormat value={input displayType={'text'} thousandSeparator={true} /> : <NumberFormat value={preState} />}}</div>
         <div className="btn light-gray" onClick={reset}>
           AC
         </div>
