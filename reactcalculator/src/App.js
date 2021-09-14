@@ -63,10 +63,12 @@ function App() {
     case "-":
       cal = String(parseFloat(preState) - parseFloat(currentState));
       break;
+      default:
+      return;
   }
-  // setInput("");
-  // setpreState(cal);
-  // setcurrentState("");
+  setInput("");
+  setpreState(cal);
+  setcurrentState("");
 
   const reset = () => {
     //set preState to an empty string
