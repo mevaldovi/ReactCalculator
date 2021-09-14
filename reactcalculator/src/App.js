@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import NumberFormat from 'react-number-format';
+import NumberFormat from "react-number-format";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
     currentState
       ? setcurrentState((pre) => pre + e.target.innerText)
       : setcurrentState(e.target.innerText);
-      //re-set Total back to false to prepare for additional other calculations.
+    //re-set Total back to false to prepare for additional other calculations.
     setTotal(false);
   };
 
@@ -30,40 +30,39 @@ function App() {
     setInput(currentState);
   }, [currentState]);
 
-useEffect(() => {
-  setInput("0");
-}, [])
+  useEffect(() => {
+    setInput("0");
+  }, []);
 
   const operatorType = (e) => {
     setTotal(false);
-    setOperator(e.target.innerText)
-    if (currentState === "")
-    return;
-    if (preState !== ""){
+    setOperator(e.target.innerText);
+    if (currentState === "") return;
+    if (preState !== "") {
       equals();
-    } setpreState(currentState)
-    setcurrentState("")
+    }
+    setpreState(currentState);
+    setcurrentState("");
   };
 
   const equals = (e) => {
-    if (e?.target.innerText === "=")
-    setTotal(true);
+    if (e?.target.innerText === "=") setTotal(true);
   };
 
   let cal;
-  switch (operator){
+  switch (operator) {
     case "/":
-    cal = String(parseFloat(preState) / parseFloat(currentState));
-    break;
+      cal = String(parseFloat(preState) / parseFloat(currentState));
+      break;
     case "+":
-    cal = String(parseFloat(preState) + parseFloat(currentState));
-    break;
+      cal = String(parseFloat(preState) + parseFloat(currentState));
+      break;
     case "X":
-    cal = String(parseFloat(preState) * parseFloat(currentState));
-    break;
+      cal = String(parseFloat(preState) * parseFloat(currentState));
+      break;
     case "-":
-    cal = String(parseFloat(preState) - parseFloat(currentState));
-    break;
+      cal = String(parseFloat(preState) - parseFloat(currentState));
+      break;
   }
   // setInput("");
   // setpreState(cal);
@@ -82,7 +81,21 @@ useEffect(() => {
   return (
     <div className="container">
       <div className="wrapper">
-        <div className="screen">{input !== "" || input === "0"? <NumberFormat value={input displayType={'text'} thousandSeparator={true} /> : <NumberFormat value={preState} />}}</div>
+        <div className="screen">
+          {input !== "" || input === "0" ? (
+            <NumberFormat
+              value={input}
+              displayType={"text"}
+              thousandSeparator={true}
+            />
+          ) : (
+            <NumberFormat
+              value={preState}
+              displayType={"text"}
+              thousandSeparator={true}
+            />
+          )}
+        </div>
         <div className="btn light-gray" onClick={reset}>
           AC
         </div>
