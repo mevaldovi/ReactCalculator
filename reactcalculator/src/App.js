@@ -89,8 +89,8 @@ function App() {
     case "-":
       cal = String(parseFloat(preState) - parseFloat(currentState));
       break;
-    default:
-    return;
+    // default:
+    // return;
   }
   // setInput("");
   // setpreState(cal);
