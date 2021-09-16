@@ -53,6 +53,7 @@ function App() {
       // localStorage.setItem("email", data.login.user.email);
       // Auth.login(data.login.token);
     } catch (err) {
+      alert("oops something went wrong!")
       console.error(err);
     }
   }, []);
@@ -88,10 +89,11 @@ function App() {
       break;
       // default:
       // return;
-      // setInput("");
+  }
+      setInput("");
       setpreState(cal);
       setcurrentState("");
-  }
+}
   
   const reset = () => {
     //set preState to an empty string
@@ -185,6 +187,6 @@ function App() {
       </div>
     </div>
   );
-}
+
 
 export default App;
