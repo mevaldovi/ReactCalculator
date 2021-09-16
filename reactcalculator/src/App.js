@@ -68,7 +68,6 @@ function App() {
       setpreState(currentState);
       setcurrentState("");
     }
-    
   };
 
   const equals = (e) => {
@@ -92,17 +91,14 @@ function App() {
     // default:
     // return;
   }
-  // setInput("");
-  // setpreState(cal);
-  // setcurrentState("");
-
+  const defaultState = setInput("") && setpreState(cal) && setcurrentState("");
 
   const percent = () => {
     preState
-    // if there is preState, convert it to a an integer and divide by 100 and multiply that by the preState
-      ? setcurrentState(String((parseFloat(currentState) / 100) * preState))
-      //if no preState ,  simply convert string to integer format and divide by 100.
-      : setcurrentState(String(parseFloat(currentState) / 100));
+      ? // if there is preState, convert it to a an integer and divide by 100 and multiply that by the preState
+        setcurrentState(String((parseFloat(currentState) / 100) * preState))
+      : //if no preState ,  simply convert string to integer format and divide by 100.
+        setcurrentState(String(parseFloat(currentState) / 100));
   };
 
   const minusPlus = () => {
@@ -126,7 +122,7 @@ function App() {
     //setInput to zero
   };
   return (
-    <div className="container">
+    <div className="container" onLoad={defaultState}>
       <div className="wrapper">
         <div className="screen">
           {input !== "" || input === "0" ? (
