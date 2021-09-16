@@ -53,7 +53,7 @@ function App() {
       // localStorage.setItem("email", data.login.user.email);
       // Auth.login(data.login.token);
     } catch (err) {
-      alert("oops something went wrong!")
+      alert("oops something went wrong!");
       console.error(err);
     }
   }, []);
@@ -87,14 +87,13 @@ function App() {
     case "-":
       cal = String(parseFloat(preState) - parseFloat(currentState));
       break;
-      // default:
-      // return;
+    // default:
+    // return;
   }
-      setInput("");
-      setpreState(cal);
-      setcurrentState("");
-}
-  
+  // setInput("");
+  // setpreState(cal);
+  // setcurrentState("");
+
   const reset = () => {
     //set preState to an empty string
     setpreState("");
@@ -108,7 +107,13 @@ function App() {
 
   const percent = () => {};
 
-  const minusPlus = () => {};
+  const minusPlus = () => {
+    if (currentState.charAt(0) === "-") {
+      setcurrentState(currentState.substring(1));
+    } else {
+      setcurrentState("-" + currentState);
+    }
+  };
   return (
     <div className="container">
       <div className="wrapper">
@@ -187,6 +192,5 @@ function App() {
       </div>
     </div>
   );
-
-
+}
 export default App;
