@@ -64,9 +64,11 @@ function App() {
     if (currentState === "") return;
     if (preState !== "") {
       equals();
+    } else {
+      setpreState(currentState);
+      setcurrentState("");
     }
-    setpreState(currentState);
-    setcurrentState("");
+    
   };
 
   const equals = (e) => {
