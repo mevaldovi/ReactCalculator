@@ -68,11 +68,14 @@ function App() {
       setpreState(currentState);
       setcurrentState("");
     }
+    
   };
 
   const equals = (e) => {
-    if (e?.target.innerText === "=") setTotal(true);
-  };
+    if (e?.target.innerText === "="){
+      setTotal(true);
+  }
+}
 
   let cal;
   switch (operator) {
@@ -91,14 +94,17 @@ function App() {
     // default:
     // return;
   }
-  const defaultState = setInput("") && setpreState(cal) && setcurrentState("");
+    // setInput("");
+    // setpreState(cal);
+    // setcurrentState("");
+
 
   const percent = () => {
     preState
-      ? // if there is preState, convert it to a an integer and divide by 100 and multiply that by the preState
-        setcurrentState(String((parseFloat(currentState) / 100) * preState))
-      : //if no preState ,  simply convert string to integer format and divide by 100.
-        setcurrentState(String(parseFloat(currentState) / 100));
+    // if there is preState, convert it to a an integer and divide by 100 and multiply that by the preState
+      ? setcurrentState(String((parseFloat(currentState) / 100) * preState))
+      //if no preState ,  simply convert string to integer format and divide by 100.
+      : setcurrentState(String(parseFloat(currentState) / 100));
   };
 
   const minusPlus = () => {
@@ -112,17 +118,13 @@ function App() {
   const reset = () => {
     //set preState to an empty string
     setpreState("");
-    // if (currentState === "") return;
-    // if (preState !== "") {
-    //   equals();
-    // }
     setcurrentState("");
     //set currentState to an empty string
     setInput("0");
     //setInput to zero
   };
   return (
-    <div className="container" onLoad={defaultState}>
+    <div className="container">
       <div className="wrapper">
         <div className="screen">
           {input !== "" || input === "0" ? (
@@ -151,37 +153,37 @@ function App() {
         <div className="btn orange" onClick={operatorType}>
           /
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           7
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           8
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           9
         </div>
         <div className="btn orange" onClick={operatorType}>
           X
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           4
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           5
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           6
         </div>
         <div className="btn orange" onClick={operatorType}>
           +
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           1
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           2
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           3
         </div>
         <div className="btn orange" onClick={operatorType}>
@@ -190,10 +192,10 @@ function App() {
         <div className=" btn zero" onClick={inputNum}>
           0
         </div>
-        <div className="btn " onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           .
         </div>
-        <div className="btn " onClick={equals}>
+        <div className="btn" onClick={equals}>
           =
         </div>
       </div>
