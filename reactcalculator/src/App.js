@@ -30,8 +30,31 @@ function App() {
     setInput(currentState);
   }, [currentState]);
 
+  try {
+    // const { data } = await login({
+    //   variables: { ...formState },
+    // });
+    console.log('Testing testing 123')
+    // localStorage.setItem('userId', data.login.user._id);
+    // localStorage.setItem("email", data.login.user.email);
+    // Auth.login(data.login.token);
+  } catch (err) {
+    console.error(err);
+  }
+
   useEffect(() => {
     setInput("0");
+    try {
+      // const { data } = await login({
+      //   variables: { ...formState },
+      // });
+      console.log('Testing testing 123')
+      // localStorage.setItem('userId', data.login.user._id);
+      // localStorage.setItem("email", data.login.user.email);
+      // Auth.login(data.login.token);
+    } catch (err) {
+      console.error(err);
+    }
   }, []);
 
   const operatorType = (e) => {
