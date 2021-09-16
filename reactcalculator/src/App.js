@@ -34,7 +34,7 @@ function App() {
     // const { data } = await login({
     //   variables: { ...formState },
     // });
-    console.log('Testing testing 123')
+    console.log("Testing testing 123");
     // localStorage.setItem('userId', data.login.user._id);
     // localStorage.setItem("email", data.login.user.email);
     // Auth.login(data.login.token);
@@ -48,7 +48,7 @@ function App() {
       // const { data } = await login({
       //   variables: { ...formState },
       // });
-      console.log('Testing testing 123')
+      console.log("Testing testing 123");
       // localStorage.setItem('userId', data.login.user._id);
       // localStorage.setItem("email", data.login.user.email);
       // Auth.login(data.login.token);
@@ -88,15 +88,11 @@ function App() {
       break;
       // default:
       // return;
+      // setInput("");
+      setpreState(cal);
+      setcurrentState("");
   }
-  setInput("");
-  setpreState(cal);
-  setcurrentState("");
-
   
-    // setpreState(currentState);
-    // setcurrentState("");
-
   const reset = () => {
     //set preState to an empty string
     setpreState("");
