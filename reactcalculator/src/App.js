@@ -44,18 +44,6 @@ function App() {
 
   useEffect(() => {
     setInput("0");
-    try {
-      // const { data } = await login({
-      //   variables: { ...formState },
-      // });
-      console.log("Testing testing 123");
-      // localStorage.setItem('userId', data.login.user._id);
-      // localStorage.setItem("email", data.login.user.email);
-      // Auth.login(data.login.token);
-    } catch (err) {
-      alert("oops something went wrong!");
-      console.error(err);
-    }
   }, []);
 
   const operatorType = (e) => {
@@ -67,8 +55,7 @@ function App() {
     } else {
       setpreState(currentState);
       setcurrentState("");
-    }
-    
+    } 
   };
 
   const equals = (e) => {
