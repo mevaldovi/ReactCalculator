@@ -94,16 +94,6 @@ function App() {
   // setpreState(cal);
   // setcurrentState("");
 
-  const reset = () => {
-    //set preState to an empty string
-    setpreState("");
-    if (currentState === "") return;
-    if (preState !== "") {
-      equals();
-    }
-    setcurrentState("");
-    setInput("0");
-  };
 
   const percent = () => {
     preState
@@ -119,6 +109,19 @@ function App() {
     } else {
       setcurrentState("-" + currentState);
     }
+  };
+
+  const reset = () => {
+    //set preState to an empty string
+    setpreState("");
+    // if (currentState === "") return;
+    // if (preState !== "") {
+    //   equals();
+    // }
+    setcurrentState("");
+    //set currentState to an empty string
+    setInput("0");
+    //setInput to zero
   };
   return (
     <div className="container">
