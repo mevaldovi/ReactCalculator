@@ -89,13 +89,21 @@ function App() {
       // default:
       // return;
   }
-  // setInput("");
-  // setpreState(cal);
-  // setcurrentState("");
+  setInput("");
+  setpreState(cal);
+  setcurrentState("");
+
+  
+    // setpreState(currentState);
+    // setcurrentState("");
 
   const reset = () => {
     //set preState to an empty string
     setpreState("");
+    if (currentState === "") return;
+    if (preState !== "") {
+      equals();
+    }
     setcurrentState("");
     setInput("0");
   };
