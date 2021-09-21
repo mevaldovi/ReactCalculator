@@ -33,9 +33,9 @@ React, Javascript, HTML, CSS.
 [Screenshot](path to photo goes here)
 
 
-Link is not up yet.(https://mevaldovi.github.io/ReactCalculator). 
+[Link is not up yet](https://mevaldovi.github.io/ReactCalculator). 
 
-[VideoDemo](link to video demo)
+[VideoDemo](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
 If the link does not work, you can just clone down this repo, open terminal at the client root file ("reactcalculator") and type "npm start".
 
 # License
@@ -47,7 +47,7 @@ Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 # Agknowledgments
 
-Calculator inspired by [tommykelly100's](https://www.youtube.com/channel/UCBeE2qKffzEzRoWns6RZ8UA). 
+Calculator inspired by [Tommy Kelly's](https://github.com/TommmyKelly)
 
 CSS main pattern background courtesy of [Praveen Puglia](https://codepen.io/praveenpuglia/pen/vNWpwO) .
 
