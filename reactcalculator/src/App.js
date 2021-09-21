@@ -55,14 +55,14 @@ function App() {
     } else {
       setpreState(currentState);
       setcurrentState("");
-    } 
+    }
   };
 
   const equals = (e) => {
-    if (e?.target.innerText === "="){
+    if (e?.target.innerText === "=") {
       setTotal(true);
-  }
-}
+    }
+  };
 
   let cal;
   switch (operator) {
@@ -82,29 +82,28 @@ function App() {
       cal = String(parseFloat(preState) - parseFloat(currentState));
       break;
     default:
-    return;
+      return;
   }
-    setInput("");
-    setpreState(cal);
-    setcurrentState("");
-  };
+  setInput("");
+  setpreState(cal);
+  setcurrentState("");
+}
 
-  const minusPlus = () => {
-    if (currentState.charAt(0) === "-") {
-      setcurrentState(currentState.substring(1));
-    } else {
-      setcurrentState("-" + currentState);
-    }
-  };
+const minusPlus = () => {
+  //currentState on lines 94, 85, and 97 need to be lit in aqua blue. Why arent they? Let's find out
+  if (currentState.charAt(0) === "-") {
+    setcurrentState(currentState.substring(1));
+  } else {
+    setcurrentState("-" + currentState);
+  }
+};
 
-  
-  const percent = () => {
-    preState
-    // if there is preState, convert it to a an integer and divide by 100 and multiply that by the preState
-      ? setcurrentState(String((parseFloat(currentState) / 100) * preState))
-      //if no preState ,  simply convert string to integer format and divide by 100.
-      : setcurrentState(String(parseFloat(currentState) / 100));
-
+const percent = () => {
+  preState
+    ? // if there is preState, convert it to a an integer and divide by 100 and multiply that by the preState
+      setcurrentState(String((parseFloat(currentState) / 100) * preState))
+    : //if no preState ,  simply convert string to integer format and divide by 100.
+      setcurrentState(String(parseFloat(currentState) / 100));
 
   const reset = () => {
     //set preState to an empty string
@@ -192,5 +191,5 @@ function App() {
       </div>
     </div>
   );
-}
+};
 export default App;
