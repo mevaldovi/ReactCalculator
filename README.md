@@ -33,9 +33,11 @@ React, Javascript, HTML, CSS.
 [Screenshot](path to photo goes here)
 
 
-[Link is not up yet](https://mevaldovi.github.io/ReactCalculator). 
+[Deployed app is not up yet](https://mevaldovi.github.io/ReactCalculator). 
 
 [VideoDemo](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
+
+
 If the link does not work, you can just clone down this repo, open terminal at the client root file ("reactcalculator") and type "npm start".
 
 # License
