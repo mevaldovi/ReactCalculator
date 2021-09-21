@@ -50,6 +50,7 @@ function App() {
     setTotal(false);
     setOperator(e.target.innerText);
     if (currentState === "") return;
+    //if preState does NOT equal an empty string, run the equals function.
     if (preState !== "") {
       equals();
     } else {
@@ -103,6 +104,7 @@ function App() {
       : //if no preState ,  simply convert string to integer format and divide by 100.
         setcurrentState(String(parseFloat(currentState) / 100));
   };
+
   const reset = () => {
     //set preState to an empty string
     setpreState("");
