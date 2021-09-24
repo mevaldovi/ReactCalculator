@@ -1,5 +1,5 @@
 # ReactCalculator
-![Alt text](reactcalculator.PNG)
+![alt text](reactcalculator\src\reactcalculator.PNG)
 # Description
 Simple calculator entirely coded with React.
 
