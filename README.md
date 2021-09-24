@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# ReactCalculator
+![Alt text](\src\reactcalculator.PNG)
+# Description
+Simple calculator entirely coded with React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Technology
+React, Javascript, HTML, CSS.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Table of Contents
+[Description](https://github.com/mevaldovi/ReactCalculator#Description)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Technology](https://github.com/mevaldovi/ReactCalculator#Technology)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+[Installation](https://github.com/mevaldovi/ReactCalculator#Installation)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+[Usage](https://github.com/mevaldovi/ReactCalculator#Usage)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[License](https://github.com/mevaldovi/ReactCalculator#License)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+[Contact Info](https://github.com/mevaldovi/ReactCalculator#Contact)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Agnowledgments](https://github.com/mevaldovi/ReactCalculator#Agknowledgments)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Usage
+[Screenshot](path to photo goes here)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Deployed app is not up yet](https://mevaldovi.github.io/ReactCalculator).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+[VideoDemo](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+If the link does not work, you can just clone down this repo, open terminal at the client root file ("reactcalculator") and type "npm start".
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# License
+MIT License
+# Contact
+Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
+# Agknowledgments
 
-### Advanced Configuration
+Calculator inspired by [Tommy Kelly's](https://github.com/TommmyKelly)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+CSS main pattern background courtesy of [Praveen Puglia](https://codepen.io/praveenpuglia/pen/vNWpwO) .
 
-### Deployment
+"Last, but not least, I would like to thank me. I want to thank me for believing in me, I want to thank me for doing all this hard work. I wanna thank me for having no days off. I wanna thank me for never quitting. I wanna thank me for always been a giver and trying to give more than I receive. I want to thank me for trying to do more right than wrong. I want to thank me for just being me at all times.” --Snoop Dog
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
