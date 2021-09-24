@@ -44,7 +44,6 @@ MIT License
 # Contact
 [Github:](https://github.com/mevaldovi)
 
-
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 
 # Agknowledgments
