@@ -1,5 +1,5 @@
 # ReactCalculator
-![Alt text](\src\reactcalculator.PNG)
+![Alt text](reactcalculator\src\reactcalculator.PNG)
 # Description
 Simple calculator entirely coded with React.
 
@@ -30,8 +30,6 @@ React, Javascript, HTML, CSS.
 
 
 # Usage
-[Screenshot](path to photo goes here)
-
 
 [Deployed app is not up yet](https://mevaldovi.github.io/ReactCalculator).
 
@@ -44,10 +42,11 @@ If the link does not work, you can just clone down this repo, open terminal at t
 # License
 MIT License
 # Contact
-Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
+[Github:](https://github.com/mevaldovi)
 
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
+
 # Agknowledgments
 
 Calculator inspired by [Tommy Kelly's](https://github.com/TommmyKelly)
