@@ -35,7 +35,7 @@ React, Javascript, HTML, CSS.
 [Deployed app](https://mevaldovi.github.io/ReactCalculator/).
 
 
-[VideoDemo](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
+[Video Demo](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
 
 
 If the link does not work, you can just clone down this repo, open terminal at the client root file ("reactcalculator") and type "npm start".
