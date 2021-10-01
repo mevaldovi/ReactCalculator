@@ -43,7 +43,7 @@ If the link does not work, you can just clone down this repo, open terminal at t
 # License
 MIT License
 # Contact
-[Github:](https://github.com/mevaldovi)
+[Github](https://github.com/mevaldovi)
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 
