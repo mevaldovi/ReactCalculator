@@ -32,7 +32,7 @@ React, Javascript, HTML, CSS.
 
 # Usage
 
-[Deployed app is not up yet](https://mevaldovi.github.io/ReactCalculator).
+[Deployed app](https://mevaldovi.github.io/ReactCalculator/).
 
 
 [VideoDemo](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
