@@ -5,7 +5,7 @@
 Simple calculator entirely coded with React.
 
 # Technology
-React, Javascript, HTML, CSS.
+React, Javascript, JSX, HTML, CSS.
 
 
 # Table of Contents
