@@ -1,11 +1,13 @@
 # ReactCalculator
-![reactcalculator](https://user-images.githubusercontent.com/83307023/135492713-921672d0-072b-4db2-b53c-700f38fe7b1c.PNG)
-
-# Description
 [Deployed React App](https://mevaldovi.github.io/ReactCalculator/).
 
 
 [Video Demo](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
+
+
+![reactcalculator](https://user-images.githubusercontent.com/83307023/135492713-921672d0-072b-4db2-b53c-700f38fe7b1c.PNG)
+
+# Description
 
 Simple calculator entirely coded with React.
 
