@@ -46,7 +46,6 @@ React, Javascript, JSX, HTML, CSS.
 - Open terminal at the client root file ("reactcalculator")
 
 - npm start
-- 
 # License
 MIT License
 # Contact
