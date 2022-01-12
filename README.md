@@ -39,8 +39,14 @@ React, Javascript, JSX, HTML, CSS.
 
 # Usage
 
-If the link does not work, you can just clone down this repo, open terminal at the client root file ("reactcalculator") and type "npm start".
+- Clone down this repo
 
+- npm install 
+
+- Open terminal at the client root file ("reactcalculator")
+
+- npm start
+- 
 # License
 MIT License
 # Contact
