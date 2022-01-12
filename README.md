@@ -1,5 +1,5 @@
 # ReactCalculator
-Deployed React app: [https://mevaldovi.github.io/ReactCalculator](https://mevaldovi.github.io/ReactCalculator).
+Deployed React app: [https://mevaldovi.github.io/ReactCalculator](https://mevaldovi.github.io/ReactCalculator)
 
 
 Video demo: [https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view](https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/view)
