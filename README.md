@@ -39,13 +39,16 @@ React, Javascript, JSX, HTML, CSS.
 
 # Usage
 
-- Clone down this repo
+Bold text indicates commands in the terminal; italicized text indicates steps to take
 
-- npm install 
+- _Clone down this repo_
 
-- cd reactcalculator
+- **npm install**
 
-- npm start
+- **cd reactcalculator**
+
+- **npm start**
+- 
 # License
 MIT License
 # Contact
