@@ -39,20 +39,21 @@ React, Javascript, JSX, HTML, CSS.
 
 # Usage
 
-Bold text indicates commands in the terminal; italicized text indicates steps to take
-
 - _Clone down this repo_
 
-- **npm install**
+- `npm install`
 
-- **cd reactcalculator**
+- `cd reactcalculator`
 
-- **npm start**
-- 
+- `npm start`
+
 # License
 MIT License
 # Contact
 Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
+
+LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
+
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 
