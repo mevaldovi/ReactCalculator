@@ -12,7 +12,8 @@ Video demo: [https://drive.google.com/file/d/1JxHfHIldY2a5b3xLpn0CjMuG91GW5PIc/v
 Simple calculator entirely coded with React.
 
 # Technology
-React, Javascript, JSX, HTML, CSS.
+[<img alt="medium" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />](https://reactjs.org/docs/getting-started.html)
+[<img alt="medium" src="	https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 # Table of Contents
